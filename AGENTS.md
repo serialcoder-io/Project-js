@@ -51,9 +51,9 @@ Use the `@/` alias for imports (`@/components/...`, `@/data/...`).
 
 Category: `{ id, name, image }`
 
-Product: `{ id, name, description, price, image, category_id }`
+Product: `{ id, name, description, price, quantity, image, category_id }`
 
-- All `id` values are numbers. `price` is a number in rupees.
+- All `id` values are numbers. `price` is a number in rupees and `quantity` is a non-negative number of units in stock. A quantity of `0` means the product is out of stock.
 - One single currency, defined in `src/lib/config.js` (`CURRENCY`).
 - Product objects are **never duplicated** in `localStorage`.
 
