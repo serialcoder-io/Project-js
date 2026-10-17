@@ -6,7 +6,7 @@ Guidelines for any AI agent working on this repository. Keep this file short and
 
 Group project (3 people): a front-end only online shop for computer peripherals (keyboards, mice, headsets, monitors). Pure React: **no backend, no database, no API**. Data lives in JavaScript arrays. The cart is persisted in `localStorage`. Checkout is simulated (no real payment, no order saved).
 
-For the initial setup, see `SETUP.md`.
+For the initial setup, see `docs/SETUP.md`.
 
 ## Stack
 
@@ -51,9 +51,9 @@ Use the `@/` alias for imports (`@/components/...`, `@/data/...`).
 
 Category: `{ id, name, image }`
 
-Product: `{ id, name, description, price, quantity, image, category_id }`
+Product: `{ id, name, description, price, quantity, featured, image, category_id }`
 
-- All `id` values are numbers. `price` is a number in rupees and `quantity` is a non-negative number of units in stock. A quantity of `0` means the product is out of stock.
+- All `id` values are numbers. `price` is a number in rupees, `quantity` is a non-negative number of units in stock, and `featured` is a boolean.
 - One single currency, defined in `src/lib/config.js` (`CURRENCY`).
 - Product objects are **never duplicated** in `localStorage`.
 
@@ -76,7 +76,11 @@ Cart rules: ignore ids that do not exist in `products`, and restore an empty car
 
 ## Routes
 
-Defined together by the group. Use English paths (`/`, `/catalog`, `/product/:id`, `/cart`, `/checkout`).
+Defined together by the group. Use English paths (`/`, `/catalog`, `/product/:id`, `/cart`, `/checkout`, `/legal-notice`, `/privacy-policy`, `/terms`).
+
+## Checkout and legal
+
+Checkout is simulated and educational. Card fields exist only for show: all card data must be fictitious, and it is never stored, logged or sent anywhere. Keep the academic disclaimer visible on the checkout page and in the Legal Notice and Terms of Use pages.
 
 ## Code conventions
 

@@ -33,7 +33,7 @@ No other dependency without a clear reason.
 
 ## Step 1 — Project creation
 
-The current folder is already the project folder (it contains `AGENTS.md` and `SETUP.md`). Create the project **in the current folder** (use `.` as the project name, do not nest another folder):
+The current folder is already the project folder (it contains `../AGENTS.md` and `SETUP.md`). Create the project **in the current folder** (use `.` as the project name, do not nest another folder):
 
 ```bash
 npm create vite@latest . -- --template react
@@ -42,8 +42,8 @@ npm create vite@latest . -- --template react
 Do not ask the user any question about this. Run the scaffolding non-interactively:
 
 - Check the Vite docs for the non-interactive options (for example a `--no-interactive` flag, if it exists in the current version) and use them.
-- If Vite still warns that the directory is not empty, choose **"Ignore files and continue"**. Never overwrite, move or delete `AGENTS.md` or `SETUP.md`.
-- If the prompt cannot be avoided, scaffold in a temporary subfolder, move its contents to the project root (without touching `AGENTS.md` and `SETUP.md`), then delete the temporary folder.
+- If Vite still warns that the directory is not empty, choose **"Ignore files and continue"**. Never overwrite, move or delete `../AGENTS.md` or `SETUP.md`.
+- If the prompt cannot be avoided, scaffold in a temporary subfolder, move its contents to the project root (without touching `../AGENTS.md` and `SETUP.md`), then delete the temporary folder.
 - Use the same approach for any other interactive prompt (shadcn init, etc.): pick the choices specified in this file instead of asking the user.
 
 Then install:
@@ -61,7 +61,7 @@ Clean up the Vite template: delete `App.css`, the demo assets (React/Vite logos)
 npm install tailwindcss @tailwindcss/vite
 ```
 
-`vite.config.js`:
+`../vite.config.js`:
 
 ```js
 import path from "path"
@@ -79,7 +79,7 @@ export default defineConfig({
 })
 ```
 
-`jsconfig.json` at the project root (required for the `@` alias and for shadcn):
+`../jsconfig.json` at the project root (required for the `@` alias and for shadcn):
 
 ```json
 {
@@ -92,7 +92,7 @@ export default defineConfig({
 }
 ```
 
-The first line of `src/index.css` must be:
+The first line of `../src/index.css` must be:
 
 ```css
 @import "tailwindcss";
@@ -104,7 +104,7 @@ The first line of `src/index.css` must be:
 npx shadcn@latest init
 ```
 
-Choose: JavaScript (no TSX), default style, neutral base color. Let the CLI configure `components.json` and the CSS variables in `index.css`.
+Choose: JavaScript (no TSX), default style, neutral base color. Let the CLI configure `../components.json` and the CSS variables in `index.css`.
 
 Add only the components needed for now:
 
@@ -135,7 +135,7 @@ src/
 
 Do not create empty folders for future features (no `context/`, no catalog/cart pages). The group will add them.
 
-`src/lib/config.js`:
+`../src/lib/config.js`:
 
 ```js
 export const SHOP_NAME = "Placeholder name"
