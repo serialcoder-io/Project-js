@@ -6,7 +6,7 @@ import { CheckoutField } from '@/components/checkout/CheckoutField'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
-import { clearStoredCart, getCartLines, getCartTotal } from '@/lib/checkoutCart'
+import { useCart } from '@/context/CartContext'
 import { CURRENCY } from '@/lib/config'
 
 const initialFormValues = {
@@ -73,11 +73,10 @@ function validateForm(values) {
 }
 
 export default function Checkout() {
-  const [lines, setLines] = useState(getCartLines)
+  const { lines, total, clearCart } = useCart()
   const [values, setValues] = useState(initialFormValues)
   const [errors, setErrors] = useState({})
   const [confirmationName, setConfirmationName] = useState('')
-  const total = getCartTotal(lines)
 
   function handleChange(event) {
     const { name, value } = event.target
@@ -93,6 +92,7 @@ export default function Checkout() {
 
   function handleSubmit(event) {
     event.preventDefault()
+    if (lines.length === 0) return
 
     const nextErrors = validateForm(values)
     if (Object.keys(nextErrors).length > 0) {
@@ -101,8 +101,7 @@ export default function Checkout() {
     }
 
     setConfirmationName(values.firstName.trim())
-    clearStoredCart()
-    setLines([])
+    clearCart()
     setValues(initialFormValues)
   }
 

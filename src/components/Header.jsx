@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router'
 
 import { SHOP_NAME } from '@/lib/config'
+import { useCart } from '@/context/CartContext'
 
 const navigation = [
   { label: 'Home', to: '/' },
@@ -9,6 +10,7 @@ const navigation = [
 ]
 
 export function Header() {
+  const { itemCount } = useCart()
   return (
     <header className="border-b bg-background">
       <div className="mx-auto flex flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:max-w-6xl lg:px-8">
@@ -26,6 +28,7 @@ export function Header() {
               end={item.to === '/'}
             >
               {item.label}
+              {item.to === '/cart' && <span aria-live="polite" className="ml-1 tabular-nums">({itemCount})</span>}
             </NavLink>
           ))}
         </nav>

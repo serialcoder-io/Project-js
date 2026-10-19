@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { CartProvider } from '@/context/CartContext'
+import Cart from '@/pages/Cart'
 import Catalog from '@/pages/Catalog'
 import Checkout from '@/pages/Checkout'
 import Home from '@/pages/Home'
@@ -14,12 +16,14 @@ import TermsOfUse from '@/pages/TermsOfUse'
 function App() {
   return (
     <BrowserRouter>
+      <CartProvider>
       <div className="flex min-h-svh flex-col">
         <Header />
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/catalog" element={<Catalog />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/legal-notice" element={<LegalNotice />} />
@@ -30,6 +34,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      </CartProvider>
     </BrowserRouter>
   )
 }
