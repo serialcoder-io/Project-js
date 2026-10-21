@@ -17,8 +17,8 @@ export default function Home() {
     <div>
       <section className="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:px-6 sm:py-14 lg:grid-cols-2 lg:items-center lg:gap-12 lg:px-8 lg:py-16">
         <div className="max-w-xl">
-          <h1 className="font-heading text-4xl font-semibold tracking-tight sm:text-5xl">Equipment for a better desk.</h1>
-          <p className="mt-5 max-w-lg text-base leading-7 text-muted-foreground">Browse keyboards, mice, headsets, and monitors for workstations, home offices, and gaming setups.</p>
+          <h1 className="font-heading text-4xl font-semibold tracking-tight sm:text-5xl">Phones, PCs and AirPods.</h1>
+          <p className="mt-5 max-w-lg text-base leading-7 text-muted-foreground">Explore phones, computers and wireless audio in our educational electronics shop.</p>
           <Button asChild className="mt-6" size="lg">
             <Link to="/catalog">Browse the catalog</Link>
           </Button>
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <Link className="text-sm font-medium text-primary hover:underline" to="/catalog">See everything</Link>
           </div>
-          <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
             {categories.map((category) => (
               <Link key={category.id} to="/catalog" className="group overflow-hidden rounded-xl border bg-background">
                 <img className="aspect-[4/3] w-full bg-muted object-cover" src={category.image} alt={category.name} />
