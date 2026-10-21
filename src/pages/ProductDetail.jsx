@@ -41,7 +41,7 @@ export default function ProductDetail() {
       <Link className="text-sm font-medium text-primary hover:underline" to="/catalog">Back to catalog</Link>
       <div className="mt-6 grid gap-8 lg:grid-cols-2 lg:gap-14">
         <div className="overflow-hidden rounded-xl border bg-muted">
-          <img className="aspect-square w-full object-cover" src={product.image} alt={product.name} />
+          <img className="aspect-square w-full object-contain p-6" src={product.image} alt={product.name} />
         </div>
         <div className="flex flex-col items-start justify-center">
           {category && <Badge variant="secondary">{category.name}</Badge>}

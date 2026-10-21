@@ -1,0 +1,122 @@
+[
+  {
+    "productId": 1,
+    "file": "/images/products/product-1.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+  },
+  {
+    "productId": 2,
+    "file": "/images/products/product-2.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg"
+  },
+  {
+    "productId": 3,
+    "file": "/images/products/product-3.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8.jpg"
+  },
+  {
+    "productId": 4,
+    "file": "/images/products/product-4.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg"
+  },
+  {
+    "productId": 5,
+    "file": "/images/products/product-5.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-5g-sm-s921.jpg"
+  },
+  {
+    "productId": 6,
+    "file": "/images/products/product-6.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2a.jpg"
+  },
+  {
+    "productId": 7,
+    "file": "/images/products/product-7.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg"
+  },
+  {
+    "productId": 8,
+    "file": "/images/products/product-8.jpg",
+    "source": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-13.jpg"
+  },
+  {
+    "productId": 9,
+    "file": "/images/products/product-9.webp",
+    "source": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp"
+  },
+  {
+    "productId": 10,
+    "file": "/images/products/product-10.webp",
+    "source": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
+  },
+  {
+    "productId": 11,
+    "file": "/images/products/product-11.webp",
+    "source": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp"
+  },
+  {
+    "productId": 12,
+    "file": "/images/products/product-12.webp",
+    "source": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp"
+  },
+  {
+    "productId": 13,
+    "file": "/images/products/product-13.jpg",
+    "source": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=800&q=85"
+  },
+  {
+    "productId": 14,
+    "file": "/images/products/product-14.jpg",
+    "source": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=800&q=85"
+  },
+  {
+    "productId": 15,
+    "file": "/images/products/product-15.webp",
+    "source": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp"
+  },
+  {
+    "productId": 16,
+    "file": "/images/products/product-16.jpg",
+    "source": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=800&q=85"
+  },
+  {
+    "productId": 17,
+    "file": "/images/products/product-17.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MV7N2?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 18,
+    "file": "/images/products/product-18.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPNY3?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 19,
+    "file": "/images/products/product-19.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 20,
+    "file": "/images/products/product-20.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXP63?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 21,
+    "file": "/images/products/product-21.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXP93?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 22,
+    "file": "/images/products/product-22.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 23,
+    "file": "/images/products/product-23.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=800&hei=800&fmt=jpeg&qlt=85"
+  },
+  {
+    "productId": 24,
+    "file": "/images/products/product-24.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MGYJ3?wid=800&hei=800&fmt=jpeg&qlt=85"
+  }
+]

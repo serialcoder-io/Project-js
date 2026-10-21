@@ -6,7 +6,7 @@ export const products = [
     "price": 35900,
     "quantity": 12,
     "featured": true,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-1.jpg",
     "category_id": 1
   },
   {
@@ -16,7 +16,7 @@ export const products = [
     "price": 18900,
     "quantity": 18,
     "featured": false,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-2.jpg",
     "category_id": 1
   },
   {
@@ -26,7 +26,7 @@ export const products = [
     "price": 29900,
     "quantity": 7,
     "featured": false,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-3.jpg",
     "category_id": 1
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     "price": 28900,
     "quantity": 24,
     "featured": true,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-4.jpg",
     "category_id": 1
   },
   {
@@ -46,7 +46,7 @@ export const products = [
     "price": 39900,
     "quantity": 5,
     "featured": false,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-5.jpg",
     "category_id": 1
   },
   {
@@ -56,7 +56,7 @@ export const products = [
     "price": 16900,
     "quantity": 16,
     "featured": false,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-6.jpg",
     "category_id": 1
   },
   {
@@ -66,7 +66,7 @@ export const products = [
     "price": 32900,
     "quantity": 9,
     "featured": false,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-7.jpg",
     "category_id": 1
   },
   {
@@ -76,7 +76,7 @@ export const products = [
     "price": 11900,
     "quantity": 0,
     "featured": false,
-    "image": "/images/phone.svg",
+    "image": "/images/products/product-8.jpg",
     "category_id": 1
   },
   {
@@ -86,7 +86,7 @@ export const products = [
     "price": 22900,
     "quantity": 12,
     "featured": true,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-9.webp",
     "category_id": 2
   },
   {
@@ -96,7 +96,7 @@ export const products = [
     "price": 25900,
     "quantity": 18,
     "featured": false,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-10.webp",
     "category_id": 2
   },
   {
@@ -106,7 +106,7 @@ export const products = [
     "price": 34900,
     "quantity": 7,
     "featured": false,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-11.webp",
     "category_id": 2
   },
   {
@@ -116,7 +116,7 @@ export const products = [
     "price": 54900,
     "quantity": 24,
     "featured": true,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-12.webp",
     "category_id": 2
   },
   {
@@ -126,7 +126,7 @@ export const products = [
     "price": 18900,
     "quantity": 5,
     "featured": false,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-13.jpg",
     "category_id": 2
   },
   {
@@ -136,7 +136,7 @@ export const products = [
     "price": 27900,
     "quantity": 16,
     "featured": false,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-14.jpg",
     "category_id": 2
   },
   {
@@ -146,7 +146,7 @@ export const products = [
     "price": 59900,
     "quantity": 9,
     "featured": false,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-15.webp",
     "category_id": 2
   },
   {
@@ -156,7 +156,7 @@ export const products = [
     "price": 45900,
     "quantity": 0,
     "featured": false,
-    "image": "/images/pc.svg",
+    "image": "/images/products/product-16.jpg",
     "category_id": 2
   },
   {
@@ -166,7 +166,7 @@ export const products = [
     "price": 5900,
     "quantity": 12,
     "featured": true,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-17.jpg",
     "category_id": 3
   },
   {
@@ -176,7 +176,7 @@ export const products = [
     "price": 7900,
     "quantity": 18,
     "featured": false,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-18.jpg",
     "category_id": 3
   },
   {
@@ -186,7 +186,7 @@ export const products = [
     "price": 8500,
     "quantity": 7,
     "featured": false,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-19.jpg",
     "category_id": 3
   },
   {
@@ -196,7 +196,7 @@ export const products = [
     "price": 8900,
     "quantity": 24,
     "featured": true,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-20.jpg",
     "category_id": 3
   },
   {
@@ -206,7 +206,7 @@ export const products = [
     "price": 11900,
     "quantity": 5,
     "featured": false,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-21.jpg",
     "category_id": 3
   },
   {
@@ -216,7 +216,7 @@ export const products = [
     "price": 13900,
     "quantity": 16,
     "featured": false,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-22.jpg",
     "category_id": 3
   },
   {
@@ -226,7 +226,7 @@ export const products = [
     "price": 12900,
     "quantity": 9,
     "featured": false,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-23.jpg",
     "category_id": 3
   },
   {
@@ -236,7 +236,7 @@ export const products = [
     "price": 27900,
     "quantity": 0,
     "featured": false,
-    "image": "/images/airpods.svg",
+    "image": "/images/products/product-24.jpg",
     "category_id": 3
   }
 ]
